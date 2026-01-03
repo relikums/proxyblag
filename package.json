@@ -1,20 +1,19 @@
 {
   "name": "next-proxy-app",
   "version": "1.0.0",
-  "description": "A Next.js app that can proxy requests, originally designed for Roblox HttpService.",
-  "main": "server.js",
+  "description": "A Next.js 24 app with optional proxying",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-"dependencies": {
-  "next": "^14.3.1",
-  "react": "^18.3.0",
-  "react-dom": "^18.3.0"
-},
-
+  "dependencies": {
+    "next": "^24.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "http-proxy": "^1.18.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sentanos/ProxyService.git"
